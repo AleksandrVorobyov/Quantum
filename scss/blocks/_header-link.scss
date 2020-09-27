@@ -1,0 +1,43 @@
+.header-link {
+display: flex;
+align-items: center;
+text-decoration: none;
+color: rgb(128, 128, 128);
+    &:not(:last-child) {
+        margin-right: 35px;
+    }
+
+    .icon-svg {
+        fill:gray;
+    }
+ &:hover {
+     color: #1875f0;
+     .icon-svg {
+         fill:#1875f0;
+     }
+ }
+}
+
+.header-link__icon {
+    position: relative;
+width: 21px;
+height: 21px;
+margin-right: 18px;
+}
+
+.header-link--notify .header-link__icon::after {
+position: absolute;
+top: -8px;
+right: -7px;
+border-radius: 50%;
+background-color: rgb(24, 117, 240);
+width: 6px;
+height: 6px;
+content: "";
+}
+
+.header-link__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+}
