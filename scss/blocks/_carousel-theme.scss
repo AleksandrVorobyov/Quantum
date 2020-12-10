@@ -40,15 +40,16 @@ margin-top: 10px; }
             &:focus {
                 outline: none; 
             }
-
     } 
+
     .owl-prev {
     left: 60px;
-    background-image: url("./../img/carousel/arrow-left.svg");
+    background-image: url("../img/Carousel/arrow-left.svg");
     }
+
     .owl-next {
     right: 60px;
-    background-image: url("./../img/carousel/arrow-right.svg");
+    background-image: url("../img/Carousel/arrow-right.svg");
     }
 }
 
